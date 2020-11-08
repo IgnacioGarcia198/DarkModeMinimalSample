@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">DayNightSample</string>
+    <string name="dark_mode_header">Dark/light mode settings</string>
+    <string name="theme_choice_title">Choose theme</string>
+    <string name="default_dark_mode_variant_choice_title">Default dark mode variant</string>
+</resources>

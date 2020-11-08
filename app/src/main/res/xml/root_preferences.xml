@@ -1,0 +1,23 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/dark_mode_header">
+
+        <ListPreference
+            app:defaultValue="default"
+            app:entries="@array/themeEntryArray"
+            app:entryValues="@array/themeValueArray"
+            app:key="themeChoice"
+            app:title="@string/theme_choice_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="system"
+            app:entries="@array/defaultDarkModeVariantsEntryArray"
+            app:entryValues="@array/defaultDarkModeVariantsValueArray"
+            app:key="defaultDarkModeVariantChoice"
+            app:title="@string/default_dark_mode_variant_choice_title"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

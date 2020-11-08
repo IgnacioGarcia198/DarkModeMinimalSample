@@ -1,0 +1,23 @@
+<resources>
+    <string-array name="themeEntryArray">
+        <item>Light</item>
+        <item>Dark</item>
+        <item>System default</item>
+    </string-array>
+
+    <string-array name="themeValueArray">
+        <item>light</item>
+        <item>dark</item>
+        <item>default</item>
+    </string-array>
+
+    <string-array name="defaultDarkModeVariantsEntryArray">
+        <item>System default</item>
+        <item>Set by battery saver</item>
+    </string-array>
+
+    <string-array name="defaultDarkModeVariantsValueArray">
+        <item>system</item>
+        <item>battery</item>
+    </string-array>
+</resources>
